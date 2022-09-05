@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Codificador e Descodificador de Textos">
+        <title>Encriptador/Descriptador</title>
+        <link rel="stylesheet" href="estilo/reset.css">
+        <link rel="stylesheet" href="estilo/style.css">
+    </head>
+
+    <body>
+
+        <header>            
+            <h1>
+            <div>
+                <img src="imagens/one-logo.png" width="20%" height="20%" id="logo-one" alt="Logo da ONE"></img>
+            </div>
+            </h1> 
+        </header>
+
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="30" rows="10 " placeholder="Digite ou cole seu texto..."></textarea>
+                <div class="informacao">
+                    <ul class="mensagens-erro"></ul>
+                </div>
+                <div class="botoes">
+                    <button type="button" class="btn-codificar">Encriptar</button>
+                    <button type="button" class="btn-decodificar">Descriptar</button>
+                </div>
+            </section>
+
+            <section class="container">
+                <textarea class="resultado" cols="30" rows="10" placeholder=" " readonly></textarea>
+                <button type="button" class="invisivel btn-copiar">Copiar/Limpar</button>
+            </section>
+        </main>
+
+        <section>
+             <footer>
+                 <div class="creditos">
+                     <p>*Os logos ONE Oracle Next Education, Instagram, LinkedIn e GitHub são de seus respectivos donos, usados apenas para fins didáticos. Todos os direitos reservados.</p>
+                    <br>
+                </div>
+
+                <div class="redes">
+                    <p>Siga-me nas redes socias</p>
+                    <a href="https://www.instagram.com/marcelopeartree/" title="Instagram - Marcelo Pereira" target="_blank">
+                    <img src="imagens/instagram-logo.png" alt="Logo do Instagram"
+                    width="25" height="25" id="instagram"></a>
+
+                    <a href="https://www.linkedin.com/in/marcelopeartree/" title="LinkeIn - Marcelo Pereira" target="_blank">
+                    <img src="imagens/linkedin-logo.png" alt="Logo do LinkedIn"
+                    width="25" height="25" id="linkedin"></a>
+                
+                    <a href="https://github.com/mpcsinfo" title="GitHub - Marcelo Pereira" target="_blank">            
+                    <img src="imagens/github-logo.png" alt="Logo do GitHub"
+                    width="25" height="25" id="github"></a>
+                    <p>Desenvolvido por Marcelo Pereira - &#169; Copyright 2022</p>
+                </div>
+             </footer>
+        </section>
+
+        <script src="logica/script.js"></script>
+        
+    
+    </body>
+</html>
